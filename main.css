@@ -1,3 +1,66 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0 px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.red-color{
+    color: red;
+}
+.flex-contain{
+    display: flex;
+   margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 80%;
+    height: 600px;
+}
+.link-button{
+    text-decoration: none;
+    color:yellow;
+    background-image:linear-gradient(red,blue,gray);
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+.dream-big{
+    background-image: url(documents/pics/topbanner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(red,green);
+    border-image-slice: 1;
+}
+#web-deb{
+    border-left: 10px solid;
+    border-image: linear-gradient(gray,cyan);
+    border-image-slice: 1;
+}
+#welcome{
+    color: rgb(190, 14, 131);
 }
